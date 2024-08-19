@@ -1,0 +1,152 @@
+body,a,header{
+    background-color: black;
+    color: seashell;
+    font-family: Helvetica;
+    font-size: 22px;
+    opacity: 0.9 !important;
+    text-align: center;
+}
+header{
+    height: 69px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid seashell;
+    z-index: 1;
+}
+
+.logo-container{
+    opacity: 0.9;
+    margin: 10px
+}
+
+.logo-img{
+    opacity: 0.9;
+    height: 50px;
+    float: left;
+}
+
+.nav-bar{
+    margin: 10px; 
+}
+
+ul{
+    overflow: hidden;
+    list-style-type: none;
+    float: right;
+    margin: 5px;
+}
+
+li{
+    
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+}
+
+.banner-container{
+
+  display: inline-block;
+ 
+}
+
+.banner-container img{
+    height: 700px;
+    display: block;
+    width: auto;
+}
+
+.overlay-text{
+    width: 1200px;
+    height: 130px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    text-align: center;
+}
+.overlay-text h4, h2{
+    opacity: 0.9;
+}
+.middle-container{
+    /* width: 1000px; */
+    /* display: inline-block;
+    align-content: space-around; */
+    opacity: 0.9;
+}
+
+.middle-container img{
+    height: 200px;
+    width: 300px;
+}
+
+.middle-container h4{
+    margin: 10px;
+}
+
+.tea-selection-container{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap; 
+}
+
+.tea{
+    flex-basis: 33.33333%;
+}
+
+.end-container{
+    margin: 50px auto;
+    
+}
+
+.end-container img{
+    display: block;
+    object-fit: cover;
+    height: 500px;
+    width: 100%;
+}
+
+.content-container h2{
+    position: absolute;
+    top: 1500px;
+    left: 480px;
+
+}
+
+/* #locations{
+    position: absolute;
+    top: 1500px;
+    left: 500px;
+} */
+
+.square-container{
+    display: flex;
+    position: absolute;
+    gap: px;
+    top: 1530px;
+    left: -15px;
+}
+
+.square{
+    background-color: black;
+    margin: 40px;
+    height: auto;
+    width: 300px;
+    opacity: 1;
+}
+
+footer{
+    position: relative;
+    height: 200px;
+    width: auto;
+    opacity: 0.9;
+    justify-content: left;
+}
+
+footer p{
+    float: left;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
