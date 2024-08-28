@@ -1,34 +1,4 @@
-Project Tea cozy notes
 
-HTML setup for CSS styling
-
-header
-
-nav bar
-
-3 separate containers
-
-1. banner
-    picture
-    text
-2. tea selections
-    5 imgs 
-3. locations
-    3 containers -
-        3 text locations
-
-div container
-    business contact  text
-         
-footer 
-    copyright  text   
-
-
-    currently the project is marked as finished as it resembles the redline example.
-
-    current issues are that the end container changes when page is full sized and contents in the content container move
-
-    second issue is the spacing gap and whatever dealing with the flex container in the middle container.
-    thats it!
-
-    put looks perfect when half sized 
+    currently the project is marked as finished as it resembles the spec.
+    
+    however should make responsive

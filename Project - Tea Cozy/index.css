@@ -133,7 +133,7 @@ li{
     margin: 40px;
     height: auto;
     width: 300px;
-    opacity: 1;
+    opacity  : 1;
 }
 
 footer{
@@ -147,6 +147,6 @@ footer{
 footer p{
     float: left;
     margin: 10px;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 600;
 }
